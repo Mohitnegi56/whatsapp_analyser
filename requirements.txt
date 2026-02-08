@@ -6,3 +6,5 @@ seaborn
 wordcloud
 emoji
 nltk
+urlextract
+pillow
