@@ -1,40 +1,61 @@
 # 📊 WhatsApp Chat Analyzer
 
-Analyze your WhatsApp group chats like a pro!  
-This tool helps you extract insights from `.txt` files exported from WhatsApp.
+A powerful and interactive **Streamlit web app** to analyze WhatsApp chats and uncover meaningful insights from exported `.txt` files.
 
-
-## 🚀 Features
-
-✅ Upload WhatsApp chat `.txt` files  
-✅ Top user statistics (messages, media, links)  
-✅ Daily, weekly, monthly message timeline  
-✅ Emoji and word analysis  
-✅ Activity heatmaps and pie charts  
-✅ Beautiful interactive UI using Streamlit
+👉 **Live App:**  
+https://whatsappanalyser-7mxtgbpbvxsytrdynkujd5.streamlit.app/
 
 ---
 
-## 📁 How to Use
+## ✨ Overview
 
-1. Export a chat from WhatsApp:
-   - Open a chat → Tap on the 3-dot menu → "More" → "Export Chat" → Without media
+WhatsApp Chat Analyzer helps you understand communication patterns in **personal or group chats**.  
+Upload your exported WhatsApp chat file and instantly get visual statistics, trends, and insights — no coding required.
 
-2. Upload the `.txt` file in the web app
+---
 
-3. Select user (or Overall)
+## 🚀 Features
 
-4. Sit back and enjoy the stats!
+- 📁 Upload WhatsApp chat `.txt` files  
+- 👤 User-wise & overall chat analysis  
+- ✉️ Message, word, media & link statistics  
+- 📆 Daily and monthly activity timelines  
+- 🗓️ Weekly & monthly activity analysis  
+- 🌡️ Interactive activity heatmaps  
+- 😊 Emoji usage analysis  
+- ☁️ WordCloud visualization  
+- 📊 Clean and responsive UI built with Streamlit  
+
+---
+
+## 📁 How to Export WhatsApp Chat
+
+1. Open WhatsApp  
+2. Select any chat (group or personal)  
+3. Tap **⋮ (three dots)** → **More** → **Export Chat**  
+4. Choose **Without media**  
+5. Upload the downloaded `.txt` file to the app  
 
 ---
 
 ## 🛠️ Tech Stack
 
 - **Python**
-- **Pandas**
-- **Matplotlib & Seaborn**
 - **Streamlit**
-- **Emoji, WordCloud**
+- **Pandas**
+- **Matplotlib**
+- **Seaborn**
+- **WordCloud**
+- **NLTK**
+- **Emoji**
+- **URLExtract**
 
 ---
 
+## 📦 Installation (Run Locally)
+
+```bash
+git clone https://github.com/Mohitnegi56/whatsapp_analyser.git
+cd whatsapp_analyser
+pip install -r requirements.txt
+streamlit run app.py
